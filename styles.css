@@ -1,0 +1,103 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-button-container {
+    margin-right: 0;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+
+.nav-button {
+    font-size: large;
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+}
+
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+.google-logo {
+    max-width: 272px;
+}
+
+.input-field {
+    width: 584px;
+    height: 35px;
+    padding: 10px 22px;
+    padding-left: 40px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.input-field:focus {
+    border: 1px solid black;
+    outline: none;
+    width: 588px;
+}
+
+.input-field:hover {
+    box-shadow: rgb(212, 212, 212) 1px 1px 3px;
+    width: 588px;
+}
+
+.submit {
+    margin: 20px 20px;
+    border: 1px solid white;
+    width: 150px;
+    height: 45px;
+    color: black;
+    background-color: rgba(235, 235, 235, 0.581);
+}
+.submit:hover {
+    margin: 20px 20px;
+    border: 1px solid lightgray;
+    box-shadow: rgb(212, 212, 212) 1px 1px 3px;
+}
+
+#submit-image {
+    width: 170px;
+}
+
+#image-span {
+    color: rgb(0, 110, 255);
+}
+
+#find-pages {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.advanced-group {
+    margin-left: 35px;
+}
+#advanced-header {
+    margin-bottom: 50px;
+}
+.input-div {
+    margin-left: 0;
+    margin: 15px 0;
+}
+.advanced-input-field {
+    width: 542px;
+    padding: 1px 8px;
+    outline: none;
+}
+
+.col-2 > label {
+    font-weight: 325;
+}
+
+#advanced-search-submit {
+    background-color: #4d90fe;
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    font-weight: bold;
+}
+#advanced-search-submit:hover {
+    background-color: #3781f8;
+}
